@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brewly – Fresh coffee, delivered</title>
+  <meta name="description" content="Demo landing page: a fictional coffee subscription. Responsive HTML and CSS.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="#top">Brewly</a>
+    <nav>
+      <a href="#features">Why us</a>
+      <a href="#pricing">Plans</a>
+      <a href="#contact" class="btn btn-small">Get started</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Coffee subscription</p>
+        <h1>Freshly roasted coffee at your door every week</h1>
+        <p class="lead">Small-batch beans from local roasters, picked for your taste. Pause or cancel any time.</p>
+        <a href="#pricing" class="btn">See plans</a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="cup">
+          <span class="steam s1"></span><span class="steam s2"></span><span class="steam s3"></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <h2>Why people love Brewly</h2>
+      <div class="grid three">
+        <article class="card">
+          <div class="icon">🌱</div>
+          <h3>Ethically sourced</h3>
+          <p>We work directly with farms and pay fair prices for every harvest.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🔥</div>
+          <h3>Roasted to order</h3>
+          <p>Your beans are roasted within 48 hours of shipping, so they arrive fresh.</p>
+        </article>
+        <article class="card">
+          <div class="icon">📦</div>
+          <h3>Flexible delivery</h3>
+          <p>Weekly, every two weeks or monthly. Skip a box whenever you like.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="pricing" class="section alt">
+      <h2>Choose your plan</h2>
+      <div class="grid three">
+        <article class="card price">
+          <h3>Starter</h3>
+          <p class="amount">$12<span>/month</span></p>
+          <ul><li>250 g of coffee</li><li>1 delivery per month</li><li>Cancel any time</li></ul>
+          <a href="#contact" class="btn btn-outline">Choose</a>
+        </article>
+        <article class="card price featured">
+          <span class="badge">Popular</span>
+          <h3>Regular</h3>
+          <p class="amount">$22<span>/month</span></p>
+          <ul><li>500 g of coffee</li><li>2 deliveries per month</li><li>Free shipping</li></ul>
+          <a href="#contact" class="btn">Choose</a>
+        </article>
+        <article class="card price">
+          <h3>Family</h3>
+          <p class="amount">$38<span>/month</span></p>
+          <ul><li>1 kg of coffee</li><li>Weekly delivery</li><li>Free shipping + gift mug</li></ul>
+          <a href="#contact" class="btn btn-outline">Choose</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Ready to taste the difference?</h2>
+      <p class="center muted">Leave your email and we'll send you the first-box details.</p>
+      <form class="form" action="#" method="post" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Thank you! ✓';">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Your name" required>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required>
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Brewly (demo project). Built with HTML &amp; CSS.</p>
+  </footer>
+</body>
+</html>
