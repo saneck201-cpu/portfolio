@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Белый Клён – стоматология без боли и очередей</title>
+  <meta name="description" content="Демо-лендинг вымышленной стоматологической клиники. Адаптивная вёрстка, HTML и CSS.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="#top">Белый Клён</a>
+    <nav>
+      <a href="#why">Почему мы</a>
+      <a href="#services">Услуги и цены</a>
+      <a href="#team">Врачи</a>
+      <a href="#contact" class="btn btn-small">Записаться</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Стоматологическая клиника</p>
+        <h1>Лечим зубы без боли, страха и очередей</h1>
+        <p class="lead">Современное оборудование, понятные цены и гарантия на все виды лечения. Первичный осмотр и консультация бесплатно.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn">Записаться на приём</a>
+          <a href="#services" class="btn btn-outline">Цены на услуги</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg class="tooth" viewBox="0 0 120 140" xmlns="http://www.w3.org/2000/svg">
+          <path d="M60 12C40 2 14 10 14 40c0 22 10 30 14 56 3 24 10 36 18 36 8 0 8-26 14-26s6 26 14 26c8 0 15-12 18-36 4-26 14-34 14-56C106 10 80 2 60 12Z"/>
+        </svg>
+        <span class="spark sp1"></span><span class="spark sp2"></span><span class="spark sp3"></span>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div><strong>12 лет</strong><span>работаем в городе</span></div>
+      <div><strong>15 000+</strong><span>вылеченных пациентов</span></div>
+      <div><strong>3 года</strong><span>гарантия на лечение</span></div>
+      <div><strong>0 ₽</strong><span>первичный осмотр</span></div>
+    </section>
+
+    <section id="why" class="section">
+      <h2>Почему к нам возвращаются</h2>
+      <div class="grid three">
+        <article class="card">
+          <div class="icon">😌</div>
+          <h3>Без боли</h3>
+          <p>Современная анестезия и аккуратная работа врачей. Можно прийти даже со страхом стоматолога.</p>
+        </article>
+        <article class="card">
+          <div class="icon">💰</div>
+          <h3>Цена известна заранее</h3>
+          <p>Врач составляет план лечения и называет итоговую стоимость до начала работы. Никаких доплат.</p>
+        </article>
+        <article class="card">
+          <div class="icon">⏰</div>
+          <h3>Без ожидания</h3>
+          <p>Приём строго по записи, вы не сидите в коридоре. Работаем ежедневно с 9:00 до 21:00.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="services" class="section alt">
+      <h2>Услуги и цены</h2>
+      <div class="grid three">
+        <article class="card price">
+          <h3>Профилактика</h3>
+          <p class="amount"><small>от</small> 4 500 ₽</p>
+          <ul>
+            <li>Профессиональная чистка</li>
+            <li>Удаление налёта и камня</li>
+            <li>Полировка и фторирование</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Записаться</a>
+        </article>
+        <article class="card price featured">
+          <span class="badge">Выбирают чаще всего</span>
+          <h3>Лечение</h3>
+          <p class="amount"><small>от</small> 6 000 ₽</p>
+          <ul>
+            <li>Лечение кариеса</li>
+            <li>Лечение каналов под микроскопом</li>
+            <li>Световая пломба, гарантия 3 года</li>
+          </ul>
+          <a href="#contact" class="btn">Записаться</a>
+        </article>
+        <article class="card price">
+          <h3>Имплантация</h3>
+          <p class="amount"><small>от</small> 38 000 ₽</p>
+          <ul>
+            <li>Имплант под ключ</li>
+            <li>3D-снимок и план лечения</li>
+            <li>Рассрочка без переплат</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Записаться</a>
+        </article>
+      </div>
+      <p class="center muted note">Цены ориентировочные. Точную стоимость назовёт врач после осмотра.</p>
+    </section>
+
+    <section id="team" class="section">
+      <h2>Наши врачи</h2>
+      <div class="grid four">
+        <article class="card doctor">
+          <div class="avatar">🦷</div>
+          <h3>Терапевт</h3>
+          <p>Лечение кариеса и каналов. Стаж от 8 лет.</p>
+        </article>
+        <article class="card doctor">
+          <div class="avatar">🦷</div>
+          <h3>Хирург-имплантолог</h3>
+          <p>Удаление, имплантация, костная пластика.</p>
+        </article>
+        <article class="card doctor">
+          <div class="avatar">🦷</div>
+          <h3>Ортопед</h3>
+          <p>Коронки, виниры, протезирование.</p>
+        </article>
+        <article class="card doctor">
+          <div class="avatar">🦷</div>
+          <h3>Ортодонт</h3>
+          <p>Брекеты и элайнеры для детей и взрослых.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <h2>Запишитесь на бесплатный осмотр</h2>
+      <p class="center muted">Оставьте номер, и администратор перезвонит в течение 15 минут.</p>
+      <form class="form" action="#" method="post" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Заявка отправлена ✓';">
+        <label for="name">Имя</label>
+        <input id="name" name="name" type="text" placeholder="Как к вам обращаться" required>
+        <label for="phone">Телефон</label>
+        <input id="phone" name="phone" type="tel" placeholder="+7 900 000-00-00" required>
+        <button class="btn" type="submit">Перезвоните мне</button>
+        <p class="agree">Нажимая кнопку, вы соглашаетесь на обработку персональных данных.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 «Белый Клён» (демо-проект, вымышленная клиника). Сделано на HTML и CSS.</p>
+    <p>Хотите такой же сайт для своего бизнеса? <a href="https://github.com/saneck201-cpu">Связаться с разработчиком</a></p>
+  </footer>
+</body>
+</html>
